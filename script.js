@@ -1,0 +1,113 @@
+var quotes = [
+    "There's no way I could live a normal life. <br><br> Life's too short for that shit",
+    "Most people haven't worked hard enough at anything to even know their own talents",
+    "I'm a G. <br><br> i gave it all to myself. <br><br> Because I wouldn't accept being ordinary",
+    "I didn't 'try to figure it out' or any other time wasting excuse you give me.<br><br>  If you're inferior to me in that skill or field, I simply didn't value your opinion. <br><br>  Instead, I found the best person in each area I wanted to learn and I listened to everything they told me.",
+    "You are the reason you can't make money. <br><br> Money won't fix you being a coward.<br><br>  Money won't teach you how the world works. <br><br> Money is a bandaid for a gashing wound which is who you are. <br><br> This is why I've always been a spender.",
+    "Focus on moving the weight with the understanding it's good for you. <br><br> The detailed understanding of muscles is for broke boys. Terrible ROI. <br><br>  Knowing why something happens isn't actually that important. As long as you know it's sure to happen.",
+    "Your mind must be stronger than your feelings.",
+    "Life hack: Live with men you're in competition with. And you will become a predator.<br><br>get a 5 bedroom house. Move in with:<br><br>An athlete<br>A Millionare businessman<br>A philosopher<br>A pimp<br><br>Take room 5. Get some self-respect and hold your own. Don't accept bitch position.",
+    "Work ethic and ambition are not your problems.<br><br>Guidance is.<br><br>You're spending time on fruitlessendeavors, guided by people who have never been where you want to go.<br><br>Solve the guidance problem.<br><br>Then it's just putting in the work.",
+    "I have explained this to you men countless times. Get 5 passports. 5 dirivers licenses.<br><br>Then change your name in a few countries - so you have legit passports with new names.<br><br>Don't be lazy. It's essential.",
+    "Whenever you ask someone what they did today, and they say 'went to school/college/university'<br><br>Ask: What did you learn?<br><br>And when they say 'nothing/dunno/can't remember'<br><br>Say: Then why did you go?",
+    "Only allow strength and ambition.",
+    "Your ego will try and stay in dreamland.<br><br>'I'm not a slave,' you think.<br><br>But could you buy a bugatti right now?<br><br>You don't want one, okay.<br><br>But could you?<br><br>If something clicked in your brain right now, could you?",
+    "High standards protect you from low quality experiences.",
+    "Your friends and family teach you that it is okay to be a slave and that you should aspire to be a slave and that you should aspire to be a happy and comfortable slave.Which is fine by their standards. They want the best for you and it is all they can teach you. It is the only thing they know.<br><br>I am here to tell you it is not. Men are not made for happy slavery. The matrix can be broken. You can win.",
+    "I am very good at typing motivational things that make you want to work harder because I think these things to make myself work harder.",
+    "Meditate through action.",
+    "Let me give you a lesson on 'thinking'<br><br>'Let me think about it' is the most commonoly used statement of the coward.<br><br>When they say this sentence, they aren't refering to actually thinking.<br><br> They just want to delay making certain decisions.<br><br>Because they are afraid.",
+    "There is a version of the universe where you can feel emotion and really not give a fuck.<br><br>How I feel doesn't change what I need to do.<br><br>If it doesn't change what i need to do, it clearly isn't important.",
+    "Stress is the only condition under which your body and mind will ever perform miracles.",
+    "If I told you how to unfunck your mind and live every day excited to be alive.<br><br>To be filled with self pride.<br><br>Guess what you'd do?<br><br>You'd do nothing because you're lazy.<br><br>500 press-ups before bed.",
+    "Most of you do not lack motivation.<br><br>You have the energy to do things - but you don't know what to do.<br><br>If you started making money every day - you'd push and push and push.<br><br>You just don't know what to do.",
+    "Most closed doors aren't even locked. <br><br><br>Push.",
+    "Creative probles solving comes from stress and urgent need<br><br>The most powerful inventions of manking were developed in times of war<br><br>Your brain is soft because you never need it to perform<br><br>Self inflict stress if required<br><br>Diamonds are made under pressure.",
+    "When I was young I would say: 'Hey Dad Batman did this'<br><br>And dad would say: 'That's nothing. I did this!' And tell me a story.<br><br>Then tell me one day i'd be able to do the same things.<br><br>Because i had a duty to protect the bloodline.<br><br>I lost all interest in Batman.",
+    "The ants below your feet are at war.<br><br>The companies you visit are at war.<br><br>The nation states you pay taxes to are at war.<br><br>War is absolutely everywhere.<br><br>And you walk the earth incapable, without brothers, because you feel 'safe'<br><br>Prey.",
+    "Raw action solves everything. Caution breeds fear.",
+    "You're not stupid. You're lazy.<br><br>You don't even try.<br><br>You think you try but compared to me you do not try.<br><br>Your 'effort' is laughable.<br><br>You're a pathetic worm who needs sleep and netflix and scrolls pointlessly on social media with an empty bank.<br><br>Hate yourself.",
+    "The reason you are sad inside is because you know you are wasting your potential",
+    "Everything you've been taught about life, money, love, truth, people.<br><br>It's all a lie.<br><br>This is why you're still trapped.",
+    "Intellect is nothing without energy.",
+    "Ideas are nothing without energy.<br><br>High energy people win.<br><br>I'm the highest energy person I know. <br><br>All I do is attack.<br><br>Of course I have millions.",
+    "The rules aren't made for your best interest.<br><br>They're made for the best interests of the people who make the rules.<br><br>That's why I've always broke them.<br><br>That's how I made it.<br><br>This is what I teach you.",
+    "You cannot control the weather.<br><br>You cannot control other random events in your life.<br><br>You can however control your mind absolutely.<br><br>Do you use this power?",
+    "I can't accept this mediocre life.<br><br>I must become a king.<br><br>Remember...<br><br>The mediocre perish. Only a king lives forever.",
+    "Young Kings.<br><br>Life is a competition and NOBODY is equal.<br><br>The reality is some people matter, most do not.",
+    "If you were more afraid of being average<br><br>you wouldn't be average.",
+    "There are levels to life.<br><br>Most of you are so far down the chain you can't even comprehend the top long enough to aim for it.<br><br>You convince yourself you don't want it.<br><br>Yes. You don't wanna be rich. Ok buddy.<br><br>Loser mentality.",
+    "I refuse absolutely anything which takes my power away.<br><br>My mind shapes the narrative of my reality.<br><br>Do you understand?",
+    "It's not who you know.<br><br>It's not what you know.<br><br>It's how does what you know benefit who you know.<br><br>Do you understand?",
+    "If things were easy, everyone would have it, and it would be valueless",
+    "Poor people don't act for fear of punishment.<br><br>Rich people act and pay the 'FINE' as money has no value.<br><br>The rich act. The poor do not.<br><br>ACTION WINS.",
+    "Misery loves company. That's why weak men try and convince you it's ok to be weak.<br><br>They want to share the pain.",
+    "Travelling won't teach you anything about yourself.<br><br>You'll learn how to book a hotel and bang South American 4s.<br><br>You'd learn harsh realities training hard and fighting in the cage.<br><br>BUT YOU'RE TOO COWARD.",
+    "You are God's power on earth.",
+    "Most of you men are not angry enough.<br><br>And the ones that are have focused it in absolutely the wrong direction.",
+    "If you had genuine tenacity and genuine guidance you would be a millionaire and in fantastic shape in less than a year.",
+    "The best way to get rich is to earn more, not save more money",
+    "I'm having a good day.<br><br>Because I didn't get in a car crash and lose my legs.<br><br>Because my mother is still breathing.<br><br>So are you.<br><br>Wtf are you sad for?",
+    "When I was poor and saw someone making money.<br><br>I'd copy them.<br><br>You see me making money and I tell you what to do - and you won't do it.<br>Then you sit confused why I'm not poor anymore and you still are.",
+    "If you flip a coin 200 times.<br><br>You'll have some wins, some losses.<br><br>Fearing loss - most of you never even flip the coin.<br><br>That's why I am more successful than you.<br><br>I'm not afraid.<br><br>I'll take the wins.",
+    "Overcoming impossible odds is the beauty of life AS A MAN",
+    "SPEED IS KEY.<br><br>Losers lose because they're busy walking slowly, napping. compounding sloth.<br><br>If you move and act twice as fast as normal you get to live two lives.<br><br>Double the money, women, accolades.<br><br>Twice the achievement and happiness.",
+    "<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>",
+    "<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>","<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>","<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>","<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>","<img src = 'pic1.jpeg'>",
+    "<img src = 'pic2.jpg'>",
+    "Most men use all their energy becoming millionaires.<br><br>Or having multiple women.<br><br>Or maintaining excellent shape.<br><br>Or traveling the world.<br><br>I do all of those things.",
+    "I told you all to be liquid.To be fast.<br><br>You cannot stay surrounded by slow people.<br><br>The sloth doesn't understand the definition of speed until he surrounds himself with a cheetah.<br><br>Fix the speed rate at which you live your life.",
+    "Having an opinion as a weak man is pointless.<br><br>Even you, reading this, only care what I think because I am fiscally and physically superior to you.<br><br>Females have beauty to validate their musings.<br><br>Strong men have power.<br><br>But when weak men opine - nobody is interested.",
+    "Tick Tock.<br><br>You will never be perfectly ready for an opportunity.<br><br>You are running out of time.",
+    "There is no man alive who achieved amazing things alone.<br><br>Steve Jobs had a team. Tyson had a trainer.<br><br>YOU NEED a network.<br><br>So look at the one you currently have...<br><br>EXACTLY.",
+    "Be a man with goals. Not a boy with wishes.",
+    "You wanna be the best man you can be?<br><br>Be around men who are surpassing you.<br><br>Learn something.COMPETE.<br><br>This is your masculine calling.<br><br>Your life will change dramatically.",
+    "Every day I warn you all that you are running out of time.<br><br>Every day you continue to move slowly.<br><br>When you're old and poor and you look your son in the eyes you'll know deep in your heart you failed him.<br><br>You failed because you were too arrogant to listen to TATE.",
+    "Derive happiness from your achievements, it lasts much longer and costs less e.g. gym gains.<br><br>Dopamine. Booze. Cigarettes. Fast food etc. is expensive and very temporary.<br><br>Not to mention quick 'HAPPINESS' is nearly always bad for you.<br><br>Pay for satisfaction with hard work.",
+    "Young Kings.<br><br>Do not let people tell you to save money.<br><br>It makes life boring and you'll NEVER get rich that way.<br><br>The only way to be rich is to EARN MORE.",
+    "The main reason people insult you is to distract you.<br><br>When someone's focusing energy on making progress, the jealous attempt to divert their attention.<br><br>Every time you reply. They win.",
+    "To have more<br><br>DO MORE",
+    "There is a difference between knowing the path and walking the path.<br><br>Do you understand?",
+    "The enormous potential you have wasted is revolting.<br><br>God is disgusted with you.<br><br>This is why you're never lucky.",
+    "Every single mental 'DISORDER' I possess benefits me massively.<br><br>I will lift that bar, 1000 times, and I will be unable to sleep due to insane guilt, if I fail.<br><br>The bar will move.",
+    "Begin your day with 'I GET TO' not 'I HAVE TO'",
+    "We often dress our opportunities as stress, when they're in fact blessings.<br><br>I get to go to work. As opposed to I have to go to work.<br><br>At least you have a job.",
+    "Since the dawn of time, the mediocre have perished.<br><br>Open your eyes before it's too late.",
+    "I spend 5 times the money to have things done quicker.<br><br>Time is the enemy of the privileged few.<br><br>COST is the enemy of the masses.",
+    "The Matrix will only tell you what the Matrix needs you to believe.",
+    "I am who I am because I refuse to live through anyone or anything.<br><br>Only my mind shapes MY reality.",
+    "There is no replacement for effort.<br><br>I have ZERO sympathy for the arrogant, entitled, lazy, poor 'man'.<br><br>ZERO.",
+    "POWER is contagious<br><br>You become more powerful simply interacting with it.<br><br>Like a virus it will infect anyone who is around it long enough.<br><br>You're more powerful through simply reading this message.",
+    "There's is nothing 'fake' about belief.<br><br>You have to wait for the rest of the world to catch up with what you already know.<br><br>You have to see through time, act accordingly, and prepare a 'told you so' that eternally upsets doubters.",
+    "If you understand how powerful your thoughts were.<br><br>You'd never think negatively again.<br><br>Now you need to focus your thoughts on things that will make your life better.",
+    "Asymmetric information is an unfair advantage.<br><br>If you’re gonna play the game to win.<br><br>You don’t care about fair.<br><br>You want EVERY edge possible.<br><br>You will win.",
+    "They hijacked your thoughts to steal YOUR power from you.<br><br>Using your own mind to chain yourself to the ground.<br><br>WAKE UP NEO.",
+    "Stick to your word even if there is zero foreseeable benefit for doing so.<br><br>It’s always worth it, in the end.",
+    "Avoid lonely people.<br><br>If someone says they don’t have friends - leave them that way.<br><br>How can you lose everyone around you one by one...<br><br>And fail to meet new people and create meaningful relationships...",
+    "I preach to you speed,<br><br>And you think you’re going fast, because you’re faster than everyone around you, you tell yourself you’re going fast.<br><br>But you DO NOT even know what fast actually is.<br><br>Do you understand?",
+    "Move into a new apartment.<br><br>Contents:<br><br>A bed. A laptop.<br><br>One plate, one cup, one fork.<br><br>Stay this way for a month.",
+
+]
+
+
+function randomQ() {
+    let num = 0;
+    num = Math.floor(Math.random() * quotes.length);
+    $("#quoteDisplay").hide().html(quotes[num]).fadeIn([300]);
+}
+
+$(document).ready(function () {
+    randomQ();
+    $(".intro").click(function () {
+        randomQ()
+
+    }
+    )
+})
+
+
